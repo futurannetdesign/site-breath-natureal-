@@ -52,3 +52,118 @@ li {
   height: 40px;
   padding: 12px 60px;
 }
+
+/*Main*/
+.main {
+  display: flex;
+  margin-top: 120px;
+}
+.main-description h1 {
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 600;
+  opacity: 75%;
+}
+.main-description p {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 73%;
+}
+.main-btn {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.main-btn-info {
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+}
+.main-btn-info  img {
+  height: 44px;
+}
+.main-btn-info p {
+  color: #FFF;
+  margin-top: 12px;
+}
+.main-btn button {
+  color: #FFF;
+  font-weight: 300;
+  border: solid 1px #FFF;
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 6px 60px;
+}
+.main-testemunha {
+  background-color: #2B3228;
+  border-radius: 45px;
+  width: 340px;
+  height: 200px;
+  margin-top: 246px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main-testemunha-card {
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+}
+.main-testemunha-card img {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.main-testemunha-card-info p {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 28px;
+}
+.main-testemunha-card-info img {
+  margin-left: -2px;
+  margin-top: 8px;
+}
+.main-testemunha-container > p {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+.main-card-right img {
+  margin-left: 222px;
+  height: 444px;
+}
+.main-card-right-img img {
+  position: absolute;
+  right: 40px;
+  top: 120px;
+}
+.main-card-right-img-info span {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 12px;
+  position: absolute;
+  right: 240px;
+  top: 500px;
+}
+.main-card-right-img-info strong {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 16px;
+  position: absolute;
+  right: 244px;
+  top: 520px;
+}
+.main-card-right-img-info button {
+  color: #FFF;
+  font-weight: 300;
+  border: solid 1px #FFF;
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: 300;
+  font-size: 12px;
+  position: absolute;
+  right: 250px;
+  top: 550px;
+  padding: 6px 24px;
+}
